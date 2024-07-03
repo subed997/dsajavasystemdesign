@@ -12,8 +12,15 @@ public class DatabaseService
 {
     @Autowired
     MovieRepo movieRepo;
+    @Autowired
+    RatingService ratingService;
     public void create(Movie movie)
     {
+        String rating = ratingService.getMovieRating(movie.getTitle());
+        if(rating != null)
+        {
+            movie.setRating(Float.parseFloat(rating));
+        }
         movieRepo.save(movie);
     }
     public List<Movie> getAllMovies()

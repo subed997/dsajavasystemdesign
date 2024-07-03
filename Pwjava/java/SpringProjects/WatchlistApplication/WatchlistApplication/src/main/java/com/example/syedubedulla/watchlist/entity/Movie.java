@@ -1,10 +1,13 @@
 package com.example.syedubedulla.watchlist.entity;
 
+import com.example.syedubedulla.watchlist.entity.validation.Priority;
+import com.example.syedubedulla.watchlist.entity.validation.Rating;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class Movie
@@ -14,8 +17,11 @@ public class Movie
     private Integer id;
     @NotBlank(message = "Please enter the title")
     private String title;
+    @Rating
     private float rating;
+    @Priority
     private String priority;
+    @Size(max = 50,message = "Comment should be maximum 50 characters")
     private String comment;
 
     public Integer getId() {
