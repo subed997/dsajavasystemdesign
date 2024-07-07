@@ -1,0 +1,106 @@
+"2020-10-17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2020-10-17 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2020-10-17 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/login", parameters={}
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.LoginController#createUser(User)
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [User [id=null, firstName=null, lastName=null, userEmail=null, username=jeevan@gmail.com, userAge=nul (truncated)...]
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [User [id=1, firstName=jeevan, lastName=kulkarni, userEmail=jeevan@gmail.com, username=jeevan@gmail.c (truncated)...]
+""2020-10-17 [http-nio-8081-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2020-10-17 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2020-10-17 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-10-17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""2020-10-17 [RMI TCP Connection(3)-127.0.0.1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2020-10-17 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 211 ms
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/trade/", parameters={}
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#createTrade(Trade, HttpServletRequest)
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Trade [id=null, tradeType=Buy, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, stat (truncated)...]
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Trade [id=1, tradeType=Buy, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, status= (truncated)...]
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/trade/1", parameters={}
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#getTradeById(Integer)
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Trade [id=1, tradeType=Buy, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, status= (truncated)...]
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/trade/", parameters={}
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#createTrade(Trade, HttpServletRequest)
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Trade [id=1, tradeType=Sell, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, status (truncated)...]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Trade [id=1, tradeType=Sell, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, status (truncated)...]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/trade/", parameters={}
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#createTrade(Trade, HttpServletRequest)
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Trade [id=null, tradeType=Buy, currency=US, amount=2500, date=20-11-2020, counterPartyName=CTC, stat (truncated)...]
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Trade [id=2, tradeType=Buy, currency=US, amount=2500, date=20-11-2020, counterPartyName=CTC, status= (truncated)...]
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/trade/2", parameters={}
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#deleteTradeById(Integer)
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 204 NO_CONTENT
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/trade/10", parameters={}
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#getTradeById(Integer)
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json]
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/login", parameters={}
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.LoginController#createUser(User)
+""2020-10-17 [http-nio-8081-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/login", parameters={}
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.LoginController#createUser(User)
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [User [id=null, firstName=null, lastName=null, userEmail=null, username=jeevan@gmail.com, userAge=nul (truncated)...]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [User [id=1, firstName=jeevan, lastName=kulkarni, userEmail=jeevan@gmail.com, username=jeevan@gmail.c (truncated)...]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#getAllTrade()
+""2020-10-17 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Trade [id=1, tradeType=Sell, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, statu (truncated)...]
+""2020-10-17 [http-nio-8081-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#getAllTrade()
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Trade [id=1, tradeType=Sell, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, statu (truncated)...]
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#createTrade(Trade, HttpServletRequest)
+""2020-10-17 [http-nio-8081-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#createTrade(Trade, HttpServletRequest)
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Trade [id=null, tradeType=Buy, currency=INR, amount=2500, date=12-10-2020, counterPartyName=Wipro, s (truncated)...]
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Trade [id=3, tradeType=Buy, currency=INR, amount=2500, date=12-10-2020, counterPartyName=Wipro, stat (truncated)...]
+""2020-10-17 [http-nio-8081-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#getAllTrade()
+""2020-10-17 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Trade [id=1, tradeType=Sell, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, statu (truncated)...]
+""2020-10-17 [http-nio-8081-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#createTrade(Trade, HttpServletRequest)
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Trade [id=3, tradeType=Buy, currency=INR, amount=3000, date=12-10-2020, counterPartyName=Wipro, stat (truncated)...]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Trade [id=3, tradeType=Buy, currency=INR, amount=3000, date=12-10-2020, counterPartyName=Wipro, stat (truncated)...]
+""2020-10-17 [http-nio-8081-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/trade", parameters={}
+""2020-10-17 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#getAllTrade()
+""2020-10-17 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/xml]
+""2020-10-17 [http-nio-8081-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Trade [id=1, tradeType=Sell, currency=US, amount=8000, date=20-11-2020, counterPartyName=CTC, statu (truncated)...]
+""2020-10-17 [http-nio-8081-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - OPTIONS "/trade/1", parameters={}
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#deleteTradeById(Integer)
+""2020-10-17 [http-nio-8081-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/trade/1", parameters={}
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.amdocs.wellsfargo.tradesystem.controller.TradeController#deleteTradeById(Integer)
+""2020-10-17 [http-nio-8081-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 204 NO_CONTENT
+"

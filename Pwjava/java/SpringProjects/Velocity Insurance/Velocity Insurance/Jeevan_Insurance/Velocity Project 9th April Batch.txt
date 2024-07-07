@@ -1,0 +1,542 @@
+Insurance Domain-
+    to protect from finacial loss
+
+Client(me)---->Requirement---BA(Buinsess Analyst)----Project Manager or TL --->
+
+Senior Software Engineer------> Junior Software Engineer(software developer or java
+developer)
+
+Requirement--->Login and CRUD operation for Policy
+
+How the requirement is divided into user story or task(BA or Scrum Master)---
+
+JIRA---- who will post the requirement on JIRA----tool(BA or Scrum Master)--
+
+JIRA- it is nothing but project management tool in which it includes how to 
+manage the task.
+
+Sprint duration - 2 weeks--->
+
+office time--9 to 6 ,10 to 7, 9.30 to 10.30, 11 to 8 
+Meeting time- 9.30 daily stand up meeting or agile meeting
+standard meeting duration is---> 15 min max--->
+
+Sprint backlog->  total no of requirements per sprint
+
+Product backlog--> total no of requirements per release-----30 
+
+2 m, 3m , 4m-
+
+3m------------------------30 requirements
+
+1st m----10
+2nd m-----10
+3rd m-----10
+
+each sprint contain 5 requirements.
+
+each user story or issue have story point->
+
+sprint planning meeting---->Scrum Master--->Developer--->
+
+Login API Design---> story point 8, 5,
+
+series----2,3,5,8,13,21---  while giving the story point for task at that time,
+add buffer time 
+
+user story----priority---Low, Medium and High
+
+who will assign user story to you so answer is scrum master
+Status---
+
+Open-------------------when assign at that time its in open status
+In progress----------actual working on this at that time you hve to change the status
+Closed----once the work is finish then you have to close the status
+
+or 
+
+in some organization, scrum master will close the status of user story
+
+Assign - your name
+Reporter - manager name
+
+Reopen--->
+
+Every user story(US) have many Acceptance Criteria(AC)---->
+
+where you upload your user story result---- In the attachment section-->
+
+word file---> End point or URL--->Request and Response
+
+every user story have many sub task->
+
+Task case preparation
+
+Test execution  ------both are done by tester(QA)
+
+who will create sub task for jira in your company so answer is scrum master
+
+if you have any issue regarding the task how to communicate with manager
+
+1st way- direct discuss with BA on microsoft team.
+
+2nd way- will write the question on JIRA-- >Comments section
+
+go to summary
+
+@Ajay Deshmukh -- your questions ?
+
+@Amar Pawar----answer
+
+@Ajay Deshmukh
+
+@Amar Pawar---answer---
+
+will get mail notification on microsoft outlook not gmail.
+
+1st ---task-----> analysis----> 15%
+2nd ----task---->analysis-----25%
+
+3rd----------------coding------40%
+4th ---------------------------80%(coding is almost done)
+5th -------------when testing done at that time you have to make it as 100%---
+
+(100% means task is done)---->
+
+1st way- in the daily stand up meeting
+
+2nd way- will sent mail to manager
+
+3rd way- 100%
+
+----------------------
+what is your project architecture or
+
+explain your project architecture in details?
+
+total no of role----> User, Guest, Admin
+
+User or Client----Request---Sent--Restcontroller(API Layer)----->Service Layer--->
+
+DAO Layer---->Database
+
+if he is not satisfied then you have to explain in brief.
+
+Added middleware service
+
+Logging Service means Logger
+
+Transection mangagement------(Action or operation)
+
+Security management(encryption or decryption algo)
+
+-----------------------------------------------------
+
+Java package structure
+
+-----------------------------------------------------
+Domain and functional knowledge of project
+
+Domain knowledge-
+
+Insurance-- nothing but to protect from finacial loss
+
+Insurer---- the company which provide the insurance 
+
+Insured person--- me or user
+
+Policy--->
+
+Premium---> specific amount that we need to pay to insurance company- 1500,2500,6000 etc.
+
+claim---->
+
+Policy----->Matured--------->Claim---
+
+Intermediaries----it is nothing but policy agent--
+
+Beneficiary (Nominee)---->
+
+Rider----> LIC Policy---Additional Benefits
+
+Grace Period---> suppose-policy----premium--->15 Aug--->Grace Period for 1 or 2 month
+in which you can pay that amount.
+
+Maturity---> specific duration in which policy get matured and 
+we can claim after that
+
+Sum assured---> total amount + addition benefit amount + other amount--->
+
+Example--- xyz policy apply----->Premium montly 4000 for next 5 year or 10 year
+
+after that you will get sum of 600000 or 800000.
+
+Settlements----> xyz Policy--->Matured Policy----->Claim it---->
+
+Insurance company----------Transfer Amount-----------------> Insured Person(me)
+
+Transfer----transferid, amount, date, accountnumber, status
+
+Clerance --->  to submit the required things or document for claim.
+
+Rate---Internal formula
+
+buyer--- user(me)
+
+no of modules designed in project----- n no of modules  or multiple modules
+
+--------------------------------------------------------
+Functional knowledge->
+
+Policy Master---- it contain details about the policy
+
+Insurer--- company details etc
+
+Insured person(me)--- personal details, address details etc.
+
+Nominee details--Name, Address, Blood Group, Mail, Aadhar card number etc.
+
+Premium--- 
+
+1st premium details
+
+sr no date       time              amount
+
+2nd premium details
+
+sr no date      time               amount
+
+Account details--->  id, reference number, etc., debitted amount details
+
+transection details--->date , time ,  amount, reference number if required.
+
+Report---> no of policy ? no of matured policy,, or no of claim policies---->
+
+Login module- username and password
+
+Authority user----> 
+
+Currency--- Policy--- INR,  Doller, Euro
+
+Claim ---> once matured we can apply for claim
+
+Quotation--- > details about policy
+
+Documentation----->User-->Login->Policy--->Matured--->Claim--->Required documents upload--->
+
+go to that site and upload the mentioned document
+
+Bank details- Account name, account number , IFSC code, branch name
+
+Receipt processing-----> once you pay the premium amount so at that time you will
+get one receipt that invoice(Receipt processing)--->
+
+Refund premium---- insurance company will provide the premium refund facility
+
+post dated chequest---->todays date is 14th aug---  20th Aug cheque--->deposit ?
+
+Payment ----- by cash  or by cheque, online banking, debit card etc upi id etc.
+
+feedback ------> about the company
+
+----------------------------------------------
+Spring boot confuguration---How to create the project---
+
+Client layer---->Visual Studio Code---->
+
+com.cybage.genworth.insurance.controller  --------------> API Layer
+
+com.cybage.genworth.insurance.service
+Interface and its implementation
+
+com.cybage.genworth.insurance.serviceImpl       ------->Service Layer
+
+com.cybage.genworth.insurance.repository        ------->DAO Layer or Repository Layer
+
+Mysql----- Database Layer
+
+com.cybage.genworth.insurance  -------------- Main method
+
+com.cybage.genworth.insurance.model --------------> POJO class
+
+RestContoller----->Service Layer------->DAO Layer----------->Database
+
+How to starts writing REST API into Industry
+step-1 - model class
+
+step-2-   create service interface
+
+step-3- create repository that is PolicyRepository
+
+step-4- create service implentation-
+
+step-5- create RESTFUL web service
+
+Flow of Java Back end----->
+
+Postman--->PolicyController.Java---->Policy Service(I)--->PolicyServiceImpl--->
+PolicyRepository.java------> Database
+
+steps-
+
+-design the rest api
+-need to test it using postman
+-run the spring boot project-
+
+- check the save or post operation
+
+How to debug the rest api into industry-
+
+1. open the rest api where you have to apply the debug point
+2. press fn + f6
+3. press fn+ f6 again
+4. press fn+ f6 or f8--- data will be stored into database
+------------------------------------------------------------
+Factory design pattern into project--->
+
+Insurance---->
+
+Life Insurance
+
+General Insurance
+-------------------------------------------------------------
+Bit Bucket- Push and Pull code
+
+Company -----Login----->Fresh code takes from git or bitbucket.
+
+then we can start the working.
+
+How to resolve conflicts in your project
+
+2 developer--------------Latest code
+
+Login.Java file-----Line no 50---change
+sneha-------commit code--->git
+
+
+
+kshitija
+Login.java same file-  Line no 50 change--
+commit ---------------------getting error-  you have many have conflict in your file
+
+steps to resolve this---
+
+1. kshitija--- codee-----copy-----notepad file----
+2. code latest ------git---- pull--
+3. check the line no 50 and add the code
+
+----------------------------------------------------
+Different server used in company?
+
+server(Machine)
+
+TL--- takes all the code and deploy it on dev server-
+URL-
+Username
+Password-----Mail sent------------->Outlook---
+
+go to that URL---
+
+test the functionality--->
+
+QA--
+Developement-TL---- code--deploy
+mail sent ------ Developer, tester,
+Go that link
+test functionality--- whether its properly run or not 
+
+go to jira--- create issue----(Ticket Raise)- submit button(JIRA)--->Mail----->
+
+Trigger---->Outlook---->click on that link----->issue fix
+
+Status-
+
+Open
+Closed
+Resolved------> submit button-----> QA----->Mail--->Sent --->
+
+QA---link ---check-----whether its working or not-
+
+fine--- done or 
+
+Dev
+Test
+UAT
+Production
+
+------------------------------------------
+How to handle transection management
+-  why we use transection management?
+
+User-------->user details
+
+Policy ------->policy details
+
+Save------Error or Exception
+
+User data-------------saved -----------db
+
+but
+
+policy data --------------not saved--------------db
+
+to overcome the above issue we use transection mgmt-
+
+yes- we have used in our project
+
+
+steps-
+1. @EnableTransactionManagement use this annotation to active the transection 
+management------- Spring boot---Main method- file
+
+2. userserviceimplementation and policyserviceimplementation- save()
+   @Trasectional
+
+-----------------------------------------
+How to configure the logger into Project
+--- it is used to store the information about application
+
+steps 1-
+open application.properties file
+
+step 2-
+open the rest controller and write below lines
+
+------------------------------------------------
+How to design custom exception in java
+
+@ResponseStatus it is used to display the error message.
+
+how to test the API- postman only
+-----------------------------------------------
+Junit ---- it is used for testing purpose-
+
+------------------------------------------------
+Swagger- 
+it is used to request and response for API-
+
+open the browser enter the local host address as 8080.
+-----------------------------------------------------
+How to write the Custom Query in live project
+------------------------------------------------------
+How to perform manual testing in project
+   with the help of postman we have performed the manual testing or
+
+JUNIT- with the help of Junit
+
+------------------------------------------------------
+Technologies----what are the technologies you have used in your project
+
+-----------------
+Logger- Log4J or SLF4J or log tool 
+
+--------------------------------------------
+Release--- after 2m, after3m after4m--
+
+Deployment----
+Have you worked on deployment part answer is No-
+
+TL will do it.
+
+--------------------------------------------------------
+Hibernate Mapping Live Example-
+
+One to one mapping
+one to many mapping
+many to one mapping
+many to many mapping
+
+---------------------------------------------------------------
+
+Addpolicy.html----> ts file-----> policyservice.ts file----->rest.ts file----->
+
+RestController(Java backend)-----Service----DAO------>Database
+
+--------------------------------------------------------------------------
+Timesheet----- every friday 
+URL-----
+
+15-08-2022                                19-08-2022
+Monday                       8.0
+Tuesday                      8.0
+Wednesday                    8.0
+Thrusday                     8.0
+Friday                       8.0
+
+total                         40 hours
+
+----------------------------------------------------------------------------
+
+Sprint 1- start - 15 aug ---
+
+
+Sprint 1-  end---  26 aug
+
+24 or 25 or 26 next sprint planning-- user story or 
+
+Reporting person- Manager  or Technical Team Lead(TL)
+
+Team size - 5 7 8 10 12 15 20 25 30
+
+8 --->
+
+4 developer
+2 tester
+1 DBA developer
+1 TL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
