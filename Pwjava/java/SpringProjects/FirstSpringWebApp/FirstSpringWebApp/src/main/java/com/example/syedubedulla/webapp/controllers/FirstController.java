@@ -8,7 +8,7 @@ public class FirstController
     @GetMapping
     public String getHelloSpringHomePage()
     {
-        return "Hello Spring";
+        return "Hi, welcome to SpringBoot STAY FOCUSED";
     }
     @GetMapping("search")
     public String getHelloWorld()
